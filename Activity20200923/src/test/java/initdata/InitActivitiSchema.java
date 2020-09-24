@@ -12,7 +12,7 @@ public class InitActivitiSchema {
 		ProcessEngineConfiguration processEngineConfiguration = ProcessEngineConfiguration.createStandaloneProcessEngineConfiguration();
 		//连接数据库的配置
 		processEngineConfiguration.setJdbcDriver("com.mysql.jdbc.Driver");
-		processEngineConfiguration.setJdbcUrl("jdbc:mysql://193.112.22.138:3306/activiti20200923?useUnicode=true&characterEncoding=utf8");
+		processEngineConfiguration.setJdbcUrl("jdbc:mysql://193.112.22.138:3306/activiti20200923?useUnicode=true&characterEncoding=utf8;");
 		processEngineConfiguration.setJdbcUsername("root");
 		processEngineConfiguration.setJdbcPassword("18.Kulit");
 		
